@@ -34,11 +34,13 @@ body{
     padding: 20px 30px;
     border-radius: 10px;
     margin-bottom: 30px;
+    border:none;
 }
-.searchIcon{
-   
+.HeaderSearchIcon{
+    position: absolute;
+    top:42%;
+    right: 26%;
 }
-
 
 .headerManu{
     color: gray;
@@ -367,4 +369,108 @@ hr{
 .social-icon a{
     padding-left: 10px;
     width: 20px;
+}
+
+.manus{
+    padding: 0 20px 20px;
+}
+
+.manu-title{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.sub-manu{
+    padding-left: 0;
+}
+
+.sub-manu li{
+    list-style: none;
+    margin-bottom: 22px !important;
+}
+.sub-manu li a{
+    font-size: 14px;
+    color: lightgray;
+    
+}
+
+.address-icon{
+    width: 30px;
+}
+
+.address-text{
+    font-size: 14px;
+    color: lightgray;
+}
+
+.sub-manu-address li{
+    list-style: none;
+    margin-bottom: 12px !important;
+}
+
+
+
+
+/* Media Query */
+
+
+/* Small/Mobile Screen control */
+@media only screen and (min-width: 300px) and (max-width: 500px){
+    .headerManu{
+        padding: 0 40px;
+    }
+    .manuCard{
+        width: 100% !important;
+    }
+
+    .foodsBtn{
+        display: list-item;
+        margin: 0 0 15px 50px;
+    }
+
+    .clients-card{
+        text-align: center;
+    }
+
+    .advantage{
+        padding: 0 30px;
+    }
+    .advantageCard{
+        text-align: center !important;
+    }
+
+    .mobile-img{
+        width: 200px;
+        margin-bottom: 50px;
+    }
+    .playstore-icon-section{
+        padding: 40px 30px;
+    }
+    .playstore-title{
+        padding: 20px 20px;
+    }
+    .apps-ads{
+        text-align: center !important;
+    }
+    .apps-ads img{
+        margin-bottom: 40px;
+    }
+    .googlePlay{
+        margin-left: 0;
+    }
+    .subscribe-message-block{
+        text-align: center;
+    }
+
+    .footer-short-description{
+        text-align: center;
+    }
+
+    .manu-title{
+        margin-top: 50px;
+        text-align: center;
+    }
+    .address-desc{
+        text-align: center;
+    }
 }
