@@ -228,4 +228,143 @@ body{
 
 .clientsCommentSection{
     background-color: #F8F8F8;
+    padding: 80px 0;
+}
+
+
+.feedback-summary{
+    background-color: #F8F8F8;
+    border:none;
+}
+
+.feedback-title{
+    font-size: 40px;
+}
+.feedback-para{
+    font-size: 18px;
+}
+
+.add-review-btn{
+    padding: 15px 20px;
+    border-radius: 30px;
+    border:none;
+    background-color: rgb(255, 52, 16);
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    width: 140px;
+}
+
+
+.clients-card{
+    border:none;
+    box-shadow: 0px 2px 15px lightgray;
+}
+
+.clients-img{
+    width: 100px;
+}
+
+.clients-message{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+.playstoreAddSection{
+    background-image: url(resources/bg/playstore1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mobile-img{
+    width: 400px;
+}
+
+.playstore-icon-section{
+    padding: 0 60px;
+}
+
+.playstore-title{
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.playstore-para{
+    font-size: 20px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.googlePlay{
+    margin-left: 20px;
+}
+
+
+/* footer Section Css */
+.footer-section{
+    background-color: #363636;
+    padding: 60px 0;
+
+}
+
+.subscribe-message-block{
+    padding: 10px 25px;
+}
+
+.subscribe-message{
+    color: white;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+/* Subscribe input Field Control */
+.subscribe-input{
+    padding: 20px 25px;
+    width: 75%;
+    border-radius: 10px;
+    border: none;
+}
+.subscribe-input::placeholder{
+    font-size: 14px;
+}
+
+
+.subscribe-button{
+    border-radius: 10px;
+    border:none;
+    background-color: rgb(255, 52, 16);
+    color: white;
+    padding: 20px 20px;
+    margin-left: 15px;
+    font-size: 14px;
+}
+hr{
+    background-color: #707070;
+}
+
+.footer-bottom-block{
+    padding-top: 30px;
+}
+
+.footer-logo{
+    width: 120px;
+    padding-bottom: 20px;
+}
+
+.footer-para{
+    color: lightgray;
+    font-size: 14px;
+}
+
+.copyright-text{
+    font-size: 16px;
+    color: lightgray;
+}
+
+.social-icon a{
+    padding-left: 10px;
+    width: 20px;
 }
