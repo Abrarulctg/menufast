@@ -1,0 +1,231 @@
+body{
+    font-family: 'Quicksand';
+}
+.headerSection{
+    background-image: url(resources/bg/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* navbar design */
+.nav-link{
+    color: white !important;
+}
+
+
+.header{
+    color: white !important;
+    padding: 110px 0 0;
+}
+
+.headerTitle{
+    letter-spacing: 4px;
+    font-size: 54px !important;
+    font-weight: 700;
+}
+
+.orderText{
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+
+.HeaderSearch{
+    width: 50%;
+    padding: 20px 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.searchIcon{
+   
+}
+
+
+.headerManu{
+    color: gray;
+    padding: 0 250px;
+}
+
+.menuCard{
+    padding: 10px;
+    width: 18%;
+    margin-left:15px;
+    margin-bottom: 20px;
+}
+.headerManuImg{
+    padding: 10px !important;
+    width: 80px;
+}
+
+.headerManuTitle{
+    line-height: 18px;
+}
+
+.activeM{
+    background-color: rgb(238, 57, 51) !important;
+    color: white;
+    text-align: center !important;
+    border-radius: 10px !important;
+}
+.inactiveM{
+    background-color:white !important;
+    text-align: center !important;
+    border-radius: 10px !important;
+}
+
+
+
+
+/* how it works CSS */
+.content-section{
+    padding: 110px 0 80px;
+}
+
+.content-title{
+    font-size: 44px;
+}
+
+.content-para{
+    color:gray;
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+
+.colord-Title{
+    color: rgb(255, 60, 25);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card-para{
+    color:gray;
+    font-size: 16px;
+}
+
+
+/* popular Restaurant Section Css */
+.popularRestaurantSection{
+    background-image: url(resources/bg/popular-rstrnt-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.foodsBtn{
+    padding: 8px 20px;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    border-radius: 30px;
+    margin-left: 10px;
+    box-shadow: 2px 2px 4px lightgray;
+}
+.activeBtn{
+    padding: 10px 20px;
+    background-color: tomato;
+    color: white;
+}
+
+.btnIcon{
+    width: 30px;
+}
+
+.features-card{
+    padding: 40px 0;
+}
+
+
+.availableBtn{
+    font-size: 14px;
+    padding: 5px 10px;
+    background-color: tomato;
+    color:white;
+    border:none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+.heart-icon{
+    width: 30px;
+    position: absolute;
+    left: 380%;
+}
+
+.avalityOption{
+    position: absolute;
+    top: 3%;
+}
+
+.cardLogo{
+    width: 90px;
+    position: absolute;
+    top: 30%;
+    right: 59%;
+}
+
+.star{
+    width: 12px !important;
+    height:12px !important;
+}
+.starMark{
+    display: flex;
+    position: absolute;
+    top: 40% !important;
+    right: 8%;
+}
+
+
+
+/* Advantages */
+.advantage{
+    padding: 0 150px;
+}
+
+.advantage-cardIcon{
+    width: 80px;
+    margin-bottom: 15px !important;
+}
+
+.advantageCard{
+    border: none !important;
+    background-color: #F9F9F9;
+    border-radius: 10px;
+    margin-bottom: 30px !important;
+    padding: 25px;
+}
+
+
+
+/* Sponsors Section */
+.sponsorsSection{
+    background-image: url(resources/bg/sponsor-bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.sponsorsLogo img{
+    width: 180px;
+    padding-bottom: 50px;
+}
+
+
+.red-btn{
+    padding: 10px 20px;
+    background-color: rgb(255, 52, 16);
+    color:white;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 30px;
+    border: none;
+
+}
+
+
+
+
+/* clients Comment Section */
+
+.clientsCommentSection{
+    background-color: #F8F8F8;
+}
